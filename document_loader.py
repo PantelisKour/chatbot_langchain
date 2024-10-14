@@ -7,7 +7,7 @@ load_start_time = time.time()
 
 print("document_loader.py is being imported")
 
-DATA_PATH = r"C:\Users\Pantelis\PycharmProjects\llm-langchain-chatbot\venv"
+DATA_PATH = "FILE_PATH"
 
 def load_documents():
     loader = DirectoryLoader(DATA_PATH, glob="*.pdf",loader_cls=UnstructuredFileLoader)
