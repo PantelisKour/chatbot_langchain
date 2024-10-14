@@ -3,14 +3,14 @@ import base64
 import requests
 
 # GitHub user and token (Replace these with your actual values)
-GITHUB_USER = "panteliskouridakis"
-GITHUB_TOKEN = "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"
+GITHUB_USER = "<user>"
+GITHUB_TOKEN = "<api_key>"
 
 # The name of the repository you want to create
 REPO_NAME = "chatbot-langchain"
 
 # The local folder you want to upload
-FOLDER_PATH = r'C:\Users\Pantelis\PycharmProjects\llm-langchain-chatbot'
+FOLDER_PATH = ''
 
 # Step 1: Create a new repository on GitHub
 def create_github_repo(repo_name):
