@@ -24,7 +24,7 @@ pdf_path = documents[0].metadata['source']
 load_dotenv()
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "<api_key>"
 
 
 class ChatModel:
