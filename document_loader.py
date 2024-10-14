@@ -7,6 +7,7 @@ load_start_time = time.time()
 
 print("document_loader.py is being imported")
 
+# Folder path that contains the future ingested files
 DATA_PATH = "FILE_PATH"
 
 def load_documents():
